@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Atividade de Fixação</title>
+
+		<script>
+
+			var objetos = Array()
+
+			function verificar_exitencia(element){
+				return objetos.indexOf(element)
+			}
+
+			function adicionar() {
+				var elemento = document.getElementById('texto').value
+
+				if (elemento != "") {
+					if(verificar_exitencia(elemento) === -1){
+						objetos.push(elemento)
+						document.getElementById('texto').value = ''
+						console.log(objetos)
+					}
+
+					else{
+						alert("Objeto já foi adicionado")
+					}
+				}
+				else{
+					alert("Informe um valor válido")
+				}
+			}
+
+			function ordenar(){
+				objetos.sort();
+				alert('oredenado')
+				console.log(objetos)
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+		
+		<div>
+			<input id="texto" type="text">
+			<span ><button onclick="adicionar()" >Adicionar</button></span>
+			<span><button onclick="ordenar()" >Ordenar</button></span>
+		</div>
+
+	</body>
+
+</html>
