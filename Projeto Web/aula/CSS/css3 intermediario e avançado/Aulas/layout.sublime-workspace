@@ -1,0 +1,330 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"pon",
+				"pointer-events\tproperty"
+			],
+			[
+				"re",
+				"repeat-y"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"r",
+				"groove\tborder"
+			],
+			[
+				"texal",
+				"text-align\tproperty"
+			],
+			[
+				"teal",
+				"text-align\tproperty"
+			],
+			[
+				"le",
+				"line-height"
+			],
+			[
+				"a",
+				"aba-direita"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"boder",
+				"border-top\tproperty"
+			],
+			[
+				"f",
+				"f7b600"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"conte",
+				"conteudo-zero"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"wh",
+				"width\tproperty"
+			],
+			[
+				"te",
+				"texto2"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"\tinstall package",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 158.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/css/arredondamento.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/arredondamento.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/formularios2.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/css/formularios2.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/imagens/arquivos-necessarios-arredondamento-com-imagens.zip",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/css/formularios.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/formularios.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/tabelas.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/css/tabelas.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/layout.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/css/estilo.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/contato.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/noticias.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/sobre.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/index.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/servicos.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/navegacao-vertical.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/heranca.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/css3 intermediario e avançado/seletores.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/Projeto TecBlog/index.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/Projeto TecBlog/css/estilo.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/links.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/sobrepondo-elementos.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/posicionamentos.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/elementos-inline-block.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/elementos-flutuantes-pratica.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/elementos-flutuantes.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/estilo.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3 intermediario/modelo-caixa.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/Projeto-anna-bella/imagens/foto1.png",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/Projeto-anna-bella/estilo.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/Projeto-anna-bella/contato.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/Projeto-anna-bella/index.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/Projeto-anna-bella/campanhas.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/Projeto-anna-bella/biografia.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/classes-ids.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/estilo.css",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/pagina2.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/pagina1.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/cor-imagem-fundo.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/estilos-textos.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/fontes-cores.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/tamanho-textos.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/bordas.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/div-span.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/CSS/ProjetoCSS3/inline_style.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/ProjetoFinalHtml/quem-somos.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/ProjetoFinalHtml/contato.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/Primeiro Projeto/index.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/Primeiro Projeto/contato.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/Primeiro Projeto/projeto.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Web/aula/Primeiro Projeto/Desafio Rapido 1.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Aula/index.html",
+		"/D/Documents/Cursos/Desenvolvimento Web/Projeto Aula/css/estilo-teste.css"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "layout.sublime-project",
+	"replace":
+	{
+		"height": 182.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
