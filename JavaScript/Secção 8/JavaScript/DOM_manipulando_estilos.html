@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+	<head>
+		<title>DOM - Manipulando Estilos</title>
+		<meta charset="utf-8">
+
+		<script>
+			function modificaEstilo(corDeFundo) {
+
+				document.getElementById('quadrado').style.backgroundColor = corDeFundo
+				
+			}
+
+			str = 'asdasdasd asd'
+
+			function modificatamanho(modificador) {
+				var tamanhoAtual = document.getElementById('quadrado').style.width 
+				tamanhoAtual = parseInt(tamanhoAtual.substr(0,((tamanhoAtual.toString()).length)-2))
+				
+				if (modificador == "-") {
+					if (tamanhoAtual >= 10) {
+						tamanhoAtual -= 10;
+					}
+					else
+						tamanhoAtual = 0;
+				}
+				else if (modificador == "+"){
+					tamanhoAtual += 10;
+				}
+				else{
+					tamanhoAtual = 100;
+				}
+
+				document.getElementById('quadrado').style.width = (tamanhoAtual + 'px')
+				document.getElementById('quadrado').style.height = (tamanhoAtual + 'px')
+			}
+			
+		</script>
+
+
+	</head>
+
+
+	<body>
+
+		<h3>Manipulando estilo</h3>
+		<button type="button" onclick="modificatamanho('+')">+</button>
+		<button type="button" onclick="modificatamanho('-')">-</button>
+		<button type="button" onclick="modificatamanho('rest'), modificaEstilo('#ffffff')">restaurar</button>
+		<button type="button" onclick="modificaEstilo('#ff0000')">Vermelho</button>
+		<button type="button" onclick="modificaEstilo('#00ff00')">Verde</button>
+		<button type="button" onclick="modificaEstilo('#0000ff')">Azul</button>
+
+		<hr>
+
+		<div id="quadrado" style=" border: solid 1px #000; width: 100px; height: 100px;">
+			
+		</div>
+
+	</body>
+</html>
