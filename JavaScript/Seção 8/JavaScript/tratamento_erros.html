@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript - Tratamento Erros</title>
+		<script type="text/javascript">
+			
+			var video = Array()
+
+			video[1] = Array()
+			video[1]['nome'] = 'How i met you mother'
+			video[1]['categoria'] = 'comedia'
+
+			function getVideo(video) {
+
+				try{
+					console.log(video[0]['nome'])
+				}catch(erro){
+					tratarErro(erro)
+					console.log('Agora sim podemos tratar esse erro')
+					throw new Error("Hove um erro, ja estamos resolvendo")
+				}
+
+				finally{
+					console.log("sempre passa por aqui")
+				}
+
+
+				console.log('A aplicação não morreu')
+			}
+
+			function tratarErro(e) {
+				console.log(e)
+			}
+
+			getVideo(video)
+
+
+
+
+		</script>
+	</head>
+
+	<body>
+	
+		
+	</body>
+</html> 

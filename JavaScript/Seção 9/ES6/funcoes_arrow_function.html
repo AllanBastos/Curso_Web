@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Arrow Function</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+		<script type="text/babel">
+				
+			// let quadrado = function(x = 5) {
+			// 	return x * x
+			// }
+
+			/*let quadrado = (x) => {
+				return x * x
+			}*/
+
+
+			//let quadrado = x => x * x
+
+			//document.write(quadrado(2))
+
+			/*let parOuImpar = function(numero) {
+				if((numero % 2) == 0){
+					return 'Par'
+				}
+				else return 'impar'
+			}*/
+
+			/*let parOuImpar = numero => {
+				if((numero % 2) == 0){
+					return 'Par'
+				}
+				else return 'impar'
+			}*/
+
+			let parOuImpar = numero => numero % 2 === 0 ? 'Par' : 'ímpar'// return implicito
+
+			document.write(parOuImpar(7))
+
+			;
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>

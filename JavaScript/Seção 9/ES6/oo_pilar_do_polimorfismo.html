@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - OO pilar do polimorfismo</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+		<script type="text/babel">
+
+			class Animal {
+
+				constructor(cor, tamanho, peso){
+					this.cor = cor
+					this.tamanho = tamanho
+					this.peso = peso
+
+				}
+
+				dormir() {
+					console.log('Dormir')
+				}
+
+			}
+				
+			class Passaro extends Animal {
+				constructor(bico, cor, tamanho, peso){
+					super(cor, tamanho, peso)
+					this.bico = bico
+				}
+
+				voar(){
+					console.log('Voou')
+				}
+
+			}
+
+			class Papagaio extends Passaro{
+				constructor(sabeFalar, bico , cor, tamanho, peso){
+					super(bico, cor, tamanho, peso)
+					this.sabeFalar = sabeFalar
+				}
+
+				falar(){
+					console.log('falar')
+				}
+			}
+
+			class Avestruz extends Passaro{
+				constructor(){
+					super('grande', 'branco e preto', 250, 15000)
+				}
+
+				enterrarCabeca(){
+					console.log('enterrou a cabeça')
+				}
+
+				voar(){
+					console.log('Não sabe voar')
+				}
+
+			}
+
+			let papagaio = new Papagaio()
+			let avestruz = new Avestruz()
+
+			papagaio.voar()
+			avestruz.enterrarCabeca()
+			avestruz.voar()
+
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript - BOM window</title>
+		<script type="text/javascript">
+				
+				var janela = 
+
+				function abrirPopUp() {
+					janela = window.open('http://www.google.com', 'janela_nova', 'width=300, height=300')
+				}
+
+				function fecharPopUp(argument) {
+					janela.close()
+				}
+
+		</script>
+	</head>
+
+	<body>
+		
+		<button onclick="abrirPopUp()">Abri Janela</button>
+		<button onclick="fecharPopUp()">Fechar Janela</button>
+		<button onclick="window.print()">Imprimir pagina</button>
+		
+	</body>
+</html> 

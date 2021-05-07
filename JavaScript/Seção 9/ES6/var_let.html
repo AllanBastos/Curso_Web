@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Babel</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		<!-- Your custom script here -->
+
+		<script type="text/babel">
+			/*/ 3 escopo global, função e bloco /*/
+
+			 let serie = 'Friends';
+
+			{
+				let serie = 'The Walking Dead'
+				console.log('Dentro ' + serie)
+
+			}
+
+			console.log('Fora do bloco ' + serie);
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>

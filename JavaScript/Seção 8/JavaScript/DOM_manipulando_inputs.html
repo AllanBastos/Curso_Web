@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+	<head>
+		<title>DOM - Manupulando inputs</title>
+		<meta charset="utf-8">
+
+		<script>
+			function distribuicaracter() {
+				//selecionar o valor digitado
+				var caracter = document.getElementById('entrada').value
+				//limpar digitação
+				document.getElementById('entrada').value = ''
+
+				//limpa espaços em brancos
+				caracter.trim()
+
+				switch(caracter){
+					case '0':
+					case '1':
+					case '2':
+					case '3':
+					case '4':
+					case '5':
+					case '6':
+					case '7':
+					case '8':
+					case '9':
+						//adiciona o caracter no campo referente a numeros
+						document.getElementById('apenas_numeros').value += caracter;
+						break;
+					default:
+						//adicionar o caracter a letras
+						document.getElementById('apenas_letras').value += caracter;
+						break;
+
+				}
+			}
+		</script>
+
+
+	</head>
+
+
+	<body>
+
+		<input type="text" placeholder="digite um caracter aqui" onkeyup="distribuicaracter()" id="entrada">
+
+		<hr>
+		<span>Letras:</span>
+		<input type="text" disabled="disabled" name="" id="apenas_letras">
+
+		<span>Números:</span>
+		<input type="text" disabled="disabled"  id="apenas_numeros">
+
+
+	</body>
+</html>

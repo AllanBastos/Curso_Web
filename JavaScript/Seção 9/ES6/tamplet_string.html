@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Templet String</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		
+
+		<script type="text/babel">
+			
+			let nome = 'Jorge';
+			// console.log('oi ' + nome + ' tudo bem ?')
+			console.log(`Oi ${nome},
+			 tudo bem ?`);
+
+			console.log(`7 + 7 = ${7+7}`)
+			console.log(`5 x 5 = ${calcular(5,5)}`)
+
+
+			function calcular(x, y) {
+				return x * y;
+			}
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>

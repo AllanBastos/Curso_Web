@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Templet String</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		
+
+		<script type="text/babel">
+			function contarUmaHistoria( persnagem = 'Fubá', atividade = 'Correr no parque', dono = 'joão' ) {
+				document.write(`Era uma vez um cachorro chamado ${persnagem}, ele adorava ${atividade}, seu dono era ${dono} e eles viviram felizes para sempre`)
+			}
+
+			contarUmaHistoria(undefined, 'Enterrar ossos', 'Massafera');
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>
