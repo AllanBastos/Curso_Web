@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Objeto Literal - Melhorias</title>
+		<meta charset="utf-8">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+		<script type="text/babel">
+
+			let nome ='Allan' //document.getElementById('nome').value
+			let idade = 31 //document.getElementById('idade').value
+			let sexo = 'Masculino' //document.getElementById('sexo').value
+			let profissao = 'Pedreiro' //document.getElementById('profissao').value
+
+			let objeto = {
+				nome: nome,
+				idade: idade,
+				sexo: sexo,
+				profissao: profissao,
+
+				exibirResumo: function() {
+					document.write(`${this.nome}, ${this.idade} anos, ${this.sexo} é ${this.profissao} `)
+				}
+			}
+
+			console.log(nome, idade, sexo, profissao)
+
+
+			let objeto2 = {
+				nome,
+				idade,
+				sexo,
+				profissao,
+
+				exibirResumo() {
+					document.write(`${this.nome}, ${this.idade} anos, ${this.sexo} é ${this.profissao} `)
+				}
+			}
+
+			console.log(objeto2)
+
+
+		;</script>
+		
+		
+	</head>
+
+	<body>
+
+		<!-- <div class="container">
+			<form>
+				<div class="form-group">
+					
+					<br>
+					<label for="nome" >Nome</label>
+					<input class="form-control" type="text" placeholder="insira seu nome" id="nome"><br>
+
+					<label for="idade">idade</label>
+					<input class="form-control" type="text" placeholder="insira sua idade" id="idade">
+					<br>
+
+					<label for="sexo" >Sexo</label>
+					<input class="form-control" type="text" placeholder="insira seu sexo" id="sexo"><br>
+
+					<label for="profissap" >profissao</label>
+					<input class="form-control" type="text" placeholder="insira sua profissao" id="profissao">
+
+					<input onclick="objeto.exibirResumo()" class="btn btn-primary " type="button" value="Salvar">
+				</div>
+			</form>
+		</div>
+ -->
+		
+	</body>
+</html>

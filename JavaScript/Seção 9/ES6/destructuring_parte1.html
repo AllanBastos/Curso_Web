@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Destructuring</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+		<script type="text/babel">
+			
+
+			let frutas = ['abacaxi', "uva", "pera", "mamao"]
+
+			//let [a, b, , c] = frutas
+			let [a, b = 'abacate', c, d, e = 'banana'] = frutas
+			console.log(a, b, c, d, e)
+
+			let coisas = [ ['abacaxi', "uva", "pera", "mamao"], ['josé', 'Maria']]
+			let[[,,p1]] = coisas
+
+			console.log(p1)
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>

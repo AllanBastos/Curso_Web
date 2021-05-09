@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Destructuring</title>
+		<meta charset="utf-8">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+		<script type="text/babel">
+			
+			let produtos = {
+				descricao: 'notebook',
+				preco: 2200,
+				detalhes: {
+					fabricante: 'abc',
+					modelo: 'xyz'
+				}
+			}
+
+			//let {descricao, preco } = produtos
+			//let {descricao: d, preco: p } = produtos
+			//let {descricao: d, preco: p, desconto} = produtos
+
+			//let {descricao: d, preco: p = 9999, desconto = 5} = produtos
+			
+			let {detalhes: {fabricante: f, modelo: m = 'n informado'}} = produtos
+
+
+			console.log(f, m)
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Objeto Literal - Modificando valores</title>
+		<meta charset="utf-8">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+		<script type="text/babel">
+
+			let pessoa = {
+				nome : 'josé',
+				idade: 45,
+			}		
+
+			console.log(pessoa)
+
+			pessoa.sexo = 'masculino'
+
+			console.log(pessoa)
+
+			pessoa.dizerOi = () => console.log(`olá ${pessoa.nome} tudo bem?` )
+
+			pessoa.dizerOi()
+		;</script>
+		
+		
+	</head>
+
+	<body>
+
+		<!-- <div class="container">
+			<form>
+				<div class="form-group">
+					
+					<br>
+					<label for="nome" >Nome</label>
+					<input class="form-control" type="text" placeholder="insira seu nome" id="nome"><br>
+
+					<label for="idade">idade</label>
+					<input class="form-control" type="text" placeholder="insira sua idade" id="idade">
+					<br>
+
+					<label for="sexo" >Sexo</label>
+					<input class="form-control" type="text" placeholder="insira seu sexo" id="sexo"><br>
+
+					<label for="profissap" >profissao</label>
+					<input class="form-control" type="text" placeholder="insira sua profissao" id="profissao">
+
+					<input onclick="objeto.exibirResumo()" class="btn btn-primary " type="button" value="Salvar">
+				</div>
+			</form>
+		</div>
+ -->
+		
+	</body>
+</html>

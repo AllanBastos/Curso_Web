@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Object Portotype</title>
+		<meta charset="utf-8">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+		<script type="text/babel">
+
+
+			let a1 = {
+				cor: 'branco', 
+				modelo: 'Airbus a380',
+				levantarVoo: function() {
+					console.log('Levantando voo')
+				}
+			}
+
+			let AviaoF = function(cor, modelo) {
+				this.cor = cor
+				this.modelo = modelo
+				this.levantarvoo = function() {Console.log('lenvantando vooo')}
+			}
+
+			let a2 = new AviaoF('Azul', 'Boing 787')
+
+			class AviaoC{
+				constructor(cor, modelo){
+					this.cor = cor;
+					this.modelo = modelo;
+				}
+
+				levantarVoo(){
+					console.log('levantou voo')
+				}
+			}
+
+			let a3 = new AviaoC('verde', 'jatinho particular')
+
+			console.log(a1)
+			console.log(a2)
+			console.log(a3)
+
+
+		;</script>
+		
+		
+	</head>
+
+	<body>
+
+
+	</body>
+</html>

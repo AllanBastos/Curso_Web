@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ES6 - Rest - Spread</title>
+		<meta charset="utf-8">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+		<script type="text/babel">
+			
+			function soma(...param) {
+				let resultado = 0
+
+				console.log(param)
+
+				param.forEach( v => resultado += v)
+
+				return resultado
+			}
+
+			console.log(soma(3, 8, 5, 7))
+
+			function multiplicador(m, ...p) {
+				let resultado = 0	
+
+				console.log(m)
+				console.log(p)
+
+				p.forEach(v => resultado += m*v)
+
+				return resultado
+			}
+
+			console.log(multiplicador(5, 7, 12, 3, 49))
+
+		;</script>
+		
+		
+	</head>
+
+	<body>
+
+
+	</body>
+</html>
