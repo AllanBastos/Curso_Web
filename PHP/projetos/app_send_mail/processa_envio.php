@@ -1,4 +1,4 @@
-<?php 
+e<?php 
 	
 	require './bibliotecas/PHPMailer/Exception.php';
 	require './bibliotecas/PHPMailer/PHPMailer.php';
@@ -57,10 +57,10 @@
 		//Server settings
 	    $mail->SMTPDebug = SMTP::DEBUG_OFF;                      //Enable verbose debug output
 	    $mail->isSMTP();                                            //Send using SMTP
-	    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+	    $mail->Host       = 'smtp.exemple.com';                     //Set the SMTP server to send through
 	    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-	    $mail->Username   = 'allan.para.teste@gmail.com';                     //SMTP username
-	    $mail->Password   = '!@#$1234';                               //SMTP password
+	    $mail->Username   = 'teste@exemple.com';                     //SMTP username
+	    $mail->Password   = 'password';                               //SMTP password
 	    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 	    $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
